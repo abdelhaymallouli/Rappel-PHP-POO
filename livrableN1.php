@@ -7,7 +7,7 @@ function normalizeString(mixed $value, string $default = ''): ?string {
     return $value === '' ? null : $value;
 }
 
-// Helper function to normalize integers (ensure non-negative)
+// Helper function to normalize integer
 function normalizeInt(mixed $value): int {
     return max(0, (int)($value ?? 0));
 }
