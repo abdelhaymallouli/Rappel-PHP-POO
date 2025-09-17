@@ -16,7 +16,7 @@ class User {
     // Method to return initials of the user name
     public function initials(): string {
         $parts = preg_split('/\s+/', trim($this->name));
-        $letters = array_map(fn($p) => mb_strtoupper(mb_substr($p, 0, 1)), $parts);
+        $letters = array_map(fn($p) => strtoupper(substr($p, 0, 1)), $parts);
         return implode('', $letters);
     }
 
