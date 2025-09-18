@@ -1,0 +1,5 @@
+title,excerpt,views,published,author
+Intro Laravel,Guide to Laravel basics,120,true,Amina
+PHP 8 en pratique,Tour des nouveautés,300,true,Yassine
+Composer & Autoload,Dependency management,90,false,Amina
+Validation FormRequest,Form validation tips,210,true,Sara
